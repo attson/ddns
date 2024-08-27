@@ -1,6 +1,6 @@
 {
   "ip_provider": {
-    "type": "gw",
+    "type": "tygw",
     "extra": {
       "base_url": "http://192.168.1.1/",
       "username": "username",

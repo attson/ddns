@@ -1,4 +1,4 @@
-package gw
+package tygw
 
 import (
 	"encoding/json"
@@ -12,7 +12,7 @@ import (
 )
 
 func init() {
-	common.RegisterGetIp("gw", GetIp)
+	common.RegisterGetIp("tygw", GetIp)
 }
 
 func retryOnRedirect(req *http.Request, via []*http.Request) error {
