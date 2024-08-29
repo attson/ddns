@@ -6,5 +6,5 @@ import (
 )
 
 func IpProvider(provider string) common.GetIpFunc {
-	return common.GetIpMap[provider]
+	return common.GetIpProviders[provider]
 }
